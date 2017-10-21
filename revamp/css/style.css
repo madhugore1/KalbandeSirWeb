@@ -24,6 +24,7 @@ body a {
 
 a:hover {
 	text-decoration: none;
+	color: #fff;
 }
 
 input[type="button"],
@@ -207,7 +208,7 @@ header {
 }
 
 .botton a {
-	color: #fff;
+	color: #000;
 	display: inline-block;
 	letter-spacing: 3px;
 	font-weight: 400;
@@ -217,7 +218,6 @@ header {
 }
 
 .botton a:hover {
-	color: #fff;
 }
 
 .botton span {
@@ -264,7 +264,7 @@ nav ul li a:before {
 }
 
 nav ul li a:hover {
-	color: #f8f8f8;
+	color: #ffffff;
 }
 
 
@@ -387,22 +387,22 @@ nav.shift ul li a:hover:after {
 
 .img_me img{
 	height: 70%;
-	width: 70%; 
+	width: 70%;
 	margin-top: 15%;
-	margin-left: auto; 
-	margin-right: auto; 
+	margin-left: auto;
+	margin-right: auto;
 	display: block
 }
 
 .info_me h2 {
 	color:black;
-	align:center; 
+	align:center;
 	margin: 15% 2% 5% 0%;
 }
 
 .info_me p {
-	color:black; 
-	line-height: 150%; 
+	color:black;
+	line-height: 150%;
 	margin: 0% 2% 5% 0%;
 }
 
