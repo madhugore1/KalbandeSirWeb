@@ -13,6 +13,23 @@ body {
 	background: #fff;
 }
 
+#footer {
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+		background-color: #000;
+		height: 40px;
+		color: #737373;
+}
+
+.fl_left{
+	float: left;
+}
+
+.fl_right{
+	float: right;
+}
+
 body a {
 	text-decoration: none;
 	transition: 0.5s all;
