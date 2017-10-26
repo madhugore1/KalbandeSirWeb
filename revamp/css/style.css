@@ -22,6 +22,21 @@ body {
 		color: #737373;
 }
 
+#profile_img{
+	border-radius: 50%;
+	/*vertical-align: middle;*/
+	margin-bottom: 50px;
+	width: 300px;
+	height: 400px;
+	margin-top: 50px;
+}
+
+#landing{
+	background-image: url(../back1.jpg);
+	width: 100%;
+	height: 100%;
+}
+
 .fl_left{
 	float: left;
 }
@@ -148,6 +163,7 @@ label {
 header {
 	padding: 0px 0px 0;
 	width: 100%;
+	/*height: 60px;*/
 }
 
 .w3-slider {
@@ -225,7 +241,7 @@ header {
 }
 
 .botton a {
-	color: #000;
+	color: #fff;
 	display: inline-block;
 	letter-spacing: 3px;
 	font-weight: 400;
@@ -412,15 +428,23 @@ nav.shift ul li a:hover:after {
 }
 
 .info_me h2 {
-	color:black;
-	align:center;
-	margin: 15% 2% 5% 0%;
+	color:#fff;
+	/*align:center;
+	margin-left: auto;
+	margin-right: auto;*/
 }
 
 .info_me p {
-	color:black;
-	line-height: 150%;
-	margin: 0% 2% 5% 0%;
+	color:#fff;
+	/*line-height: 150%;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+
+.info_me{
+	text-align: center;
+	vertical-align: middle;
+	/*height: 536px;*/
 }
 
 /*--placeholder-color--*/
@@ -1014,7 +1038,7 @@ h3.subheading-agileits-w3layouts {
 }
 
 .edu-img-agileits {
-	background: url(../images/edu.jpg)no-repeat 0px 0px;
+	background: url(../awards.jpg)no-repeat 0px 0px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
